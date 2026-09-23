@@ -85,7 +85,7 @@ Right-click a `.md` or `.html` file in the editor or the Explorer for the first 
 
 ## This repository
 
-The Marketplace listing is coming; until then install the `.vsix` below.
+Install it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=pagewellai.pagewell), or from the `.vsix` below.
 
 It holds the **built extension only** — the source lives in the PageWell monorepo, and
 every release here comes from one build there (see `MANIFEST`).
