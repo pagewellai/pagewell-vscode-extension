@@ -1,8 +1,27 @@
-## 0.1.0
-
-Initial Visual Studio Marketplace release.
-
 # Changelog
+
+## 0.1.3
+
+- Rebuilt and published the extension from the current PageWell renderer, including
+  the Mermaid and KaTeX loading fixes introduced after the first packaged release.
+
+## 0.1.2
+
+- Mermaid and KaTeX actually draw now. 0.1.1 enabled them but shipped a reader that
+  asked for the library under the filename the live site uses, which is content-addressed
+  and therefore not the name inside the package — every diagram was a silent 404 behind
+  the words "could not load".
+
+## 0.1.1
+
+- Mermaid and KaTeX now draw in the preview without the document opting in: the
+  extension ships their bytes, so nothing is downloaded to draw them. The published
+  page still shows the source until the document asks for the library, and the
+  preview says so in a notice rather than letting the two drift apart silently.
+- The preview button no longer borrows the icon VS Code uses for its own Markdown
+  preview, so the two are told apart in the editor title bar.
+- Interface in seven more languages: Italiano, 繁體中文, Русский, Türkçe, Polski,
+  Čeština, Magyar — fifteen in all, matching the languages VS Code itself ships.
 
 ## 0.1.0
 

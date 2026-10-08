@@ -1,6 +1,6 @@
 extension: pagewellai.pagewell
-version:   0.1.0
-vsix:      pagewell-0.1.0.vsix
-commit:    a8d3e8a488bd5aac705921e003cf78bec6bbfa8c
-built_at:  2026-09-23T15:57:18Z
+version:   0.1.3
+vsix:      pagewell-0.1.3.vsix
+commit:    62550d2fedd2c02ad85d7526706c217bf04a6464
+built_at:  2026-10-08T15:24:29Z
 source:    PageWell monorepo, apps/vscode-extension
