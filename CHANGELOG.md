@@ -1,4 +1,18 @@
+## 0.1.4
+
+Mermaid diagrams open full screen from the preview: zoom, drag, + − 0, arrow keys, Esc. A fenced ```mermaid block is now its own declaration on the published page as well, so the preview no longer needs the notice that said the two differ. Reading styles follow the site's second pass: sub-headings in the heading typeface, table columns sized by their content, a language label and a copy button on code blocks, callouts as tinted cards, drawn task-list boxes.
+
 # Changelog
+
+## 0.1.4
+
+- Mermaid diagrams open full screen: a button in the corner of each diagram (or a click
+  on the diagram) fills the preview with it — zoom, drag, `+ − 0`, arrow keys, Esc.
+- A fenced ```` ```mermaid ```` block is now its own declaration, on the published page as
+  well as here, so the preview no longer needs the notice that said the two differ.
+- Reading styles follow the live site's second pass: sub-headings in the heading
+  typeface, table columns sized by their content, a language label and a copy button on
+  code blocks, callouts as tinted cards with an icon, drawn task-list boxes.
 
 ## 0.1.3
 
