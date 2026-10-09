@@ -1,8 +1,12 @@
-## 0.1.4
-
-Mermaid diagrams open full screen from the preview: zoom, drag, + − 0, arrow keys, Esc. A fenced ```mermaid block is now its own declaration on the published page as well, so the preview no longer needs the notice that said the two differ. Reading styles follow the site's second pass: sub-headings in the heading typeface, table columns sized by their content, a language label and a copy button on code blocks, callouts as tinted cards, drawn task-list boxes.
-
 # Changelog
+
+## 0.1.5
+
+- Signed-in uploads now follow the account's plan default: new pages are public on
+  Free and private on Pro. The panel explains the result and uses the public page's
+  own address when one was created.
+- The preview outline now follows the document's real heading hierarchy and can be
+  collapsed, matching the current PageWell reader.
 
 ## 0.1.4
 

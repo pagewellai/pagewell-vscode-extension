@@ -91,6 +91,6 @@ It holds the **built extension only** — the source lives in the PageWell monor
 every release here comes from one build there (see `MANIFEST`).
 
 ```bash
-# download pagewell-0.1.4.vsix from the release for v0.1.4, then
-code --install-extension pagewell-0.1.4.vsix
+# download pagewell-0.1.5.vsix from the release for v0.1.5, then
+code --install-extension pagewell-0.1.5.vsix
 ```
